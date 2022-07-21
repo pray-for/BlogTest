@@ -9,6 +9,8 @@ import java.io.Serializable;
 @Data
 public class LoginDto implements Serializable {
 
+    //添加测试GitHub
+
     @NotBlank(message = "昵称不能为空")
     private String username;
 
